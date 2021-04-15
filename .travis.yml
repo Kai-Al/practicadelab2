@@ -3,3 +3,9 @@ node_js:
   - "12"
 install: 
   - 'npm install'
+jdk:
+  - oraclejdk8
+addons:
+  sonarCloud: true
+script:
+  - sonar-scanner -Dsonar.login = $SONAR_TOKEN -Dsonar.organization = Kai-Al-github -Dsonar.projectKey = practicadelab2 -Dsonar.sources = './app' -X

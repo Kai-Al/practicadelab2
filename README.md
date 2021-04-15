@@ -1,3 +1,9 @@
+
+# LAB
+
+Travis - CI : [![Build Status](https://travis-ci.org/Kai-Al/practicadelab2.svg?branch=main)](https://travis-ci.org/Kai-Al/practicadelab2)
+
+
 Implementation of a Simple Calculator with the next operations:
 
 * Add

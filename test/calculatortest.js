@@ -1,7 +1,7 @@
 'use strict';
 
 var expect = require("chai").expect;
-var calculator = require("../app/calculator");
+var calculator = require("../app/calculator.js");
 
 describe("Calculator - Test", function(){
 

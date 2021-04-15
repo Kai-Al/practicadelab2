@@ -10,7 +10,7 @@ addons:
 script:
   - sonar-scanner
   -Dsonar.login = $SONAR_TOKEN
-  -Dsonar.organization = kai-al-github 
+  -Dsonar.organization = kai-al
   -Dsonar.projectKey = practicadelab2 
   -Dsonar.sources = './app' 
   -X

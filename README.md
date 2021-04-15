@@ -1,5 +1,5 @@
 
-# LAB
+# LABORATORIO DE ARQUITECTURA DE SOFTWARE 2
 
 Travis - CI : [![Build Status](https://travis-ci.org/Kai-Al/practicadelab2.svg?branch=main)](https://travis-ci.org/Kai-Al/practicadelab2)
 

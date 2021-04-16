@@ -11,4 +11,4 @@ script:
   - npm run cover
   - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=kai-al -Dsonar.projectKey=Kai-Al_practicadelab2 -Dsonar.sources='./app' -X
 after_succes:
-   - npm run coveralls
+  - npm run coveralls

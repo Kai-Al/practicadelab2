@@ -1,7 +1,7 @@
 'use strict';
-
+// corrigiendo error
 var expect = require("chai").expect;
-var calculator = require("../app/calculator.js");
+var calculator = require("../App/calculator.js");
 
 describe("Calculator - Test", function(){
 

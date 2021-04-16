@@ -3,6 +3,15 @@
 
 Travis - CI : [![Build Status](https://travis-ci.org/Kai-Al/practicadelab2.svg?branch=main)](https://travis-ci.org/Kai-Al/practicadelab2)
 
+Sonar = 
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Kai-Al_practicadelab2&metric=code_smells)](https://sonarcloud.io/dashboard?id=Kai-Al_practicadelab2)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Kai-Al_practicadelab2&metric=bugs)](https://sonarcloud.io/dashboard?id=Kai-Al_practicadelab2)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Kai-Al_practicadelab2&metric=coverage)](https://sonarcloud.io/dashboard?id=Kai-Al_practicadelab2)
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Kai-Al_practicadelab2&metric=alert_status)](https://sonarcloud.io/dashboard?id=Kai-Al_practicadelab2)
+
 
 Implementation of a Simple Calculator with the next operations:
 

@@ -1,16 +1,11 @@
 language: node_js
-node_js: 
-  - "12"
-install: 
-  - 'npm install'
+node_js:
+ - "12"
+install:
+ - 'npm install'
 jdk:
-  - oraclejdk8
+ - oraclejdk8
 addons:
-  sonarCloud: true
+ sonarcloud: true
 script:
-  - sonar-scanner
-  -Dsonar.login = $SONAR_TOKEN
-  -Dsonar.organization = kai-al
-  -Dsonar.projectKey = practicadelab2
-  -Dsonar.sources = './app' 
-  -X
+ - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=kai-al -Dsonar.projectKey=practicadelab2 -Dsonar.sources='./app' -X

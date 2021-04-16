@@ -1,5 +1,5 @@
 const interface= require('readline-sync');
-var calculator= require('.//calculator');
+var calculator= require('./App/calculator');
 
 const firstNum= interface.question("Deme el primero numero: ");
 const secondNum= interface.question("Deme el segundo numero: ");

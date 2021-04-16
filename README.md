@@ -1,5 +1,5 @@
 
-# LABORATORIO DE ARQUITECTURA DE SOFTWARE 2
+# LABORATORIO 2 DE ARQUITECTURA DE SOFTWARE
 
 Travis - CI : [![Build Status](https://travis-ci.org/Kai-Al/practicadelab2.svg?branch=main)](https://travis-ci.org/Kai-Al/practicadelab2)
 
@@ -11,6 +11,9 @@ Sonar =
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Kai-Al_practicadelab2&metric=coverage)](https://sonarcloud.io/dashboard?id=Kai-Al_practicadelab2)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Kai-Al_practicadelab2&metric=alert_status)](https://sonarcloud.io/dashboard?id=Kai-Al_practicadelab2)
+
+CoverAll
+[![Coverage Status](https://coveralls.io/repos/github/Kai-Al/practicadelab2/badge.svg?branch=main)](https://coveralls.io/github/Kai-Al/practicadelab2?branch=main)
 
 
 Implementation of a Simple Calculator with the next operations:

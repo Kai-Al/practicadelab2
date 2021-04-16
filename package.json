@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,12 @@
   },
   "homepage": "https://github.com/Kai-Al/practicadelab2#readme",
   "dependencies": {
+    "coveralls": "^3.1.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.1.0"
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^8.3.2"
   }
 }

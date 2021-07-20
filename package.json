@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Kai-Al/practicadelab2#readme",
   "dependencies": {
-    "coveralls": "^3.1.0",
+    "coveralls": "^3.1.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
